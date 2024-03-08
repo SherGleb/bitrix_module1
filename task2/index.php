@@ -11,12 +11,14 @@
 </head>
 <body>
     <form action="action.php" method="post" enctype="multipart/form-data">
-    <div class = "form-group">
-        <label for="fileToUpload">Загрузка файла:</label>
-        <input type="file" name="fileToUpload" id="fileToUpload">
-        <p class="help-block">Загрузите scv файл</p>
-    </div>  
-    <button type="submit" class="btn btn-default">Загрузить</button>		
+        <div class="container">
+            <div class = "form-group row">
+                <label for="fileToUpload">Загрузка файла:</label>
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <p class="help-block">Загрузите scv файл</p>
+            </div>  
+            <button type="submit" class="btn btn-default row">Загрузить</button>		
+        </div>
     </form>
     
 </body>

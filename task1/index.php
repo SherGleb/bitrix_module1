@@ -11,27 +11,29 @@
 </head>
 <body>
 <form action="action.php" method="post" enctype="multipart/form-data">
-    <div class = "form-group">
-        <label for="name">Ваше имя:</label>
-        <input required class="form-control" name="name" id="name" type="text" placeholder="Имя пользователя">
-    </div>
+    <div class="container">
+        <div class = "form-group row">
+            <label for="name">Ваше имя:</label>
+            <input required class="form-control" name="name" id="name" type="text" placeholder="Имя пользователя">
+        </div>
 
-    <div class = "form-group">
-        <label for="email">Ваш email:</label>
-     <input required class="form-control" name="email" id="email" type="email" placeholder="Эл. адрес">
-    </div>
+        <div class = "form-group row">
+            <label for="email">Ваш email:</label>
+        <input required class="form-control" name="email" id="email" type="email" placeholder="Эл. адрес">
+        </div>
 
-    <div class = "form-group">
-        <label for="message">Введите сообщение:</label>
-        <input required class="form-control" name="message" id="message" type="text" placeholder="Сообщение">
-    </div>
+        <div class = "form-group row">
+            <label for="message">Введите сообщение:</label>
+            <input required class="form-control" name="message" id="message" type="text" placeholder="Сообщение">
+        </div>
 
-    <div class = "form-group">
-        <label for="fileToUpload">Загрузка файла:</label>
-        <input type="file" name="fileToUpload" id="fileToUpload">
-        <p class="help-block">Загрузите изображение формата png или jpg</p>
-    </div>  
-    <button type="submit" class="btn btn-default">Отправить</button>
+        <div class = "form-group row">
+            <label for="fileToUpload">Загрузка файла:</label>
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <p class="help-block">Загрузите изображение формата png или jpg</p>
+        </div>  
+        <button type="submit" class="btn btn-default row">Отправить</button>
+    </div>
 </form>
 </body>
 </html>
